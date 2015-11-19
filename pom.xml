@@ -10,12 +10,12 @@
         <relativePath/>
     </parent>
 
-    <groupId>com.infosys.zdportal</groupId>
-    <artifactId>zdportal</artifactId>
+    <groupId>me.cm.stackportal</groupId>
+    <artifactId>stackportal</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>war</packaging>
 
-    <name>ZDPortal</name>
+    <name>StackPortal</name>
 
     <prerequisites>
         <maven>3.0.0</maven>
