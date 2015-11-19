@@ -25,7 +25,7 @@ public class LoggingAspect {
     @Inject
     private Environment env;
 
-    @Pointcut("within(com.infosys.zdportal.repository..*) || within(com.infosys.zdportal.service..*) || within(com.infosys.zdportal.web.rest..*)")
+    @Pointcut("within(me.cm.stackportal.repository..*) || within(me.cm.stackportal.service..*) || within(me.cm.stackportal.web.rest..*)")
     public void loggingPointcut() {
     }
 

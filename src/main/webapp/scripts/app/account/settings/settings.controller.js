@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('zDPortalApp')
+angular.module('stackPortalApp')
     .controller('SettingsController', function ($scope, Principal, Auth) {
         $scope.success = null;
         $scope.error = null;

@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('zDPortalApp')
+angular.module('stackPortalApp')
     .service('DateUtils', function () {
       this.convertLocaleDateToServer = function(date) {
         if (date) {

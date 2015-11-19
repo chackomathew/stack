@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('zDPortalApp')
+angular.module('stackPortalApp')
     .controller('AuditsController', function ($scope, $filter, AuditsService) {
         $scope.onChangeDate = function () {
             var dateFormat = 'yyyy-MM-dd';

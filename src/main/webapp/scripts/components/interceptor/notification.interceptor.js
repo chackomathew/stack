@@ -1,12 +1,12 @@
  'use strict';
 
-angular.module('zDPortalApp')
+ angular.module('stackPortalApp')
     .factory('notificationInterceptor', function ($q, AlertService) {
         return {
             response: function(response) {
-                var alertKey = response.headers('X-zDPortalApp-alert');
+                var alertKey = response.headers('X-stackPortalApp-alert');
                 if (angular.isString(alertKey)) {
-                    AlertService.success(alertKey, { param : response.headers('X-zDPortalApp-params')});
+                    AlertService.success(alertKey, {param: response.headers('X-stackPortalApp-params')});
                 }
                 return response;
             }

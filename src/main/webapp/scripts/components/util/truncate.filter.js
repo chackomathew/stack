@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('zDPortalApp')
+angular.module('stackPortalApp')
     .filter('characters', function () {
         return function (input, chars, breakOnWord) {
             if (isNaN(chars)) {

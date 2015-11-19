@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('zDPortalApp')
+angular.module('stackPortalApp')
     .factory('MonitoringService', function ($rootScope, $http) {
         return {
             getMetrics: function () {

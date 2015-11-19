@@ -1,11 +1,11 @@
 'use strict';
 
-angular.module('zDPortalApp')
+angular.module('stackPortalApp')
     .factory('errorHandlerInterceptor', function ($q, $rootScope) {
         return {
             'responseError': function (response) {
                 if (!(response.status == 401 && response.data.path.indexOf("/api/account") == 0 )){
-	                $rootScope.$emit('zDPortalApp.httpError', response);
+                    $rootScope.$emit('stackPortalApp.httpError', response);
 	            }
                 return $q.reject(response);
             }

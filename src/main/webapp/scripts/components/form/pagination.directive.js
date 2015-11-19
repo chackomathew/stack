@@ -1,8 +1,8 @@
 /* globals $ */
 'use strict';
 
-angular.module('zDPortalApp')
-    .directive('zDPortalAppPagination', function() {
+angular.module('stackPortalApp')
+    .directive('stackPortalAppPagination', function () {
         return {
             templateUrl: 'scripts/components/form/pagination.html'
         };

@@ -540,7 +540,7 @@
                     <defaultSchemaName></defaultSchemaName>
                     <username></username>
                     <password></password>
-                    <referenceUrl>hibernate:spring:com.infosys.zdportal.domain?dialect=</referenceUrl>
+                    <referenceUrl>hibernate:spring:me.cm.stackportal.domain?dialect=</referenceUrl>
                     <verbose>true</verbose>
                     <logging>debug</logging>
                 </configuration>

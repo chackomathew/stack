@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('zDPortalApp', ['LocalStorageModule', 
+angular.module('stackPortalApp', ['LocalStorageModule',
                'ui.bootstrap', // for modal dialogs
     'ngResource', 'ui.router', 'ngCookies', 'ngAria', 'ngCacheBuster', 'ngFileUpload', 'infinite-scroll'])
 
@@ -18,7 +18,7 @@ angular.module('zDPortalApp', ['LocalStorageModule',
         });
 
         $rootScope.$on('$stateChangeSuccess',  function(event, toState, toParams, fromState, fromParams) {
-            var titleKey = 'ZDPortal' ;
+            var titleKey = 'StackPortal';
 
             // Remember previous state unless we've been redirected to login or we've just
             // reset the state memory after logout. If we're redirected to login, our

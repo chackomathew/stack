@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('zDPortalApp')
+angular.module('stackPortalApp')
     .factory('Register', function ($resource) {
         return $resource('api/register', {}, {
         });

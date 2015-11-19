@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('zDPortalApp')
+angular.module('stackPortalApp')
     .config(function ($stateProvider) {
         $stateProvider
             .state('configuration', {

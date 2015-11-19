@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('zDPortalApp')
+angular.module('stackPortalApp')
     .factory('AuditsService', function ($http) {
         return {
             findAll: function () {

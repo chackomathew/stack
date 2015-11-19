@@ -1,7 +1,7 @@
 /* globals $ */
 'use strict';
 
-angular.module('zDPortalApp')
+angular.module('stackPortalApp')
     .directive('showValidation', function() {
         return {
             restrict: 'A',

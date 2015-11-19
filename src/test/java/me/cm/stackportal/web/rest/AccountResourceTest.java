@@ -9,7 +9,6 @@ import me.cm.stackportal.security.AuthoritiesConstants;
 import me.cm.stackportal.service.MailService;
 import me.cm.stackportal.service.UserService;
 import me.cm.stackportal.web.rest.dto.UserDTO;
-import org.assertj.core.api.StrictAssertions;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -312,7 +311,7 @@ public class AccountResourceTest {
 
         Optional<User> userDup = userRepository.findOneByLogin("badguy");
         assertThat(userDup.isPresent()).isTrue();
-        StrictAssertions.assertThat(userDup.get().getAuthorities()).hasSize(1)
+        assertThat(userDup.get().getAuthorities()).hasSize(1)
                 .containsExactly(authorityRepository.findOne(AuthoritiesConstants.USER));
     }
 }

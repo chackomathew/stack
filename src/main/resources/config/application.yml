@@ -49,14 +49,14 @@ jhipster:
         protocol: smtp
         tls: false
         auth: false
-        from: ZDPortal@localhost
+        from: StackPortal@localhost
     security:
         rememberme:
             # security key (this key should be unique for your application, and kept secret)
             key: b2e43bafc0ce6b84df36abdb8199fef0d4c42621
     swagger:
-        title: ZDPortal API
-        description: ZDPortal API documentation
+        title: StackPortal API
+        description: StackPortal API documentation
         version: 0.0.1
         termsOfServiceUrl:
         contact:

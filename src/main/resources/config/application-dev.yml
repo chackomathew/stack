@@ -20,7 +20,7 @@ spring:
         username: 
         password:
     jpa:
-        database-platform: FixedH2Dialect
+        database-platform: me.cm.stackportal.domain.util.FixedH2Dialect
         database: H2
         show_sql: true
         properties:
@@ -55,4 +55,4 @@ jhipster:
             enabled: false
             host: localhost
             port: 2003
-            prefix: ZDPortal
+            prefix: StackPortal

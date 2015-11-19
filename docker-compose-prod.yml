@@ -1,12 +1,12 @@
 jhipster-prod-mysql:
-  container_name: ZDPortal-prod-mysql
+  container_name: StackPortal-prod-mysql
   image: mysql
   # volumes:
-  # - ~/volumes/jhipster/ZDPortal/prod-mysql/:/var/lib/mysql/
+  # - ~/volumes/jhipster/StackPortal/prod-mysql/:/var/lib/mysql/
   environment:
   - MYSQL_USER=root
   - MYSQL_ALLOW_EMPTY_PASSWORD=yes
-  - MYSQL_DATABASE=zdportal
+  - MYSQL_DATABASE=stackportal
   ports:
   - "3306:3306"
   command: mysqld --lower_case_table_name=1

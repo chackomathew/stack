@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('zDPortalApp')
+angular.module('stackPortalApp')
     .factory('AlertService', function ($timeout, $sce) {
         var exports = {
             factory: factory,

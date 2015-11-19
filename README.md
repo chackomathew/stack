@@ -1,6 +1,6 @@
-# Developing ZDPortal
+# Developing StackPortal
 
-ZDPortal was generated using JHipster, you can find documentation and help at [JHipster][].
+StackPortal was generated using JHipster, you can find documentation and help at [JHipster][].
 
 Before you can build this project, you must install and configure the following dependencies on your machine:
 
@@ -28,7 +28,7 @@ Add the `-h` flag on any command to see how you can use it. For example, `bower 
 
 # Building for production
 
-To optimize the ZDPortal client for production, run:
+To optimize the StackPortal client for production, run:
 
     mvn -Pprod clean package
 
@@ -51,9 +51,9 @@ Unit tests are run by [Karma][] and written with [Jasmine][]. They're located in
 
 To setup this project in Jenkins, use the following configuration:
 
-* Project name: `ZDPortal`
+* Project name: `StackPortal`
 * Source Code Management
-    * Git Repository: `git@github.com:xxxx/ZDPortal.git`
+    * Git Repository: `git@github.com:xxxx/StackPortal.git`
     * Branches to build: `*/master`
     * Additional Behaviours: `Wipe out repository & force clone`
 * Build Triggers

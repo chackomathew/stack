@@ -2,7 +2,7 @@
 
 describe('Controllers Tests ', function () {
 
-    beforeEach(module('zDPortalApp'));
+    beforeEach(module('stackPortalApp'));
 
     describe('SessionsController', function () {
         var $scope, SessionsService;

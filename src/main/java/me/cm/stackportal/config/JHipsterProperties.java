@@ -199,7 +199,7 @@ public class JHipsterProperties {
 
         private boolean auth = false;
 
-        private String from = "ZDPortal@localhost";
+        private String from = "StackPortal@localhost";
 
         public String getHost() {
             return host;
@@ -291,9 +291,9 @@ public class JHipsterProperties {
 
     public static class Swagger {
 
-        private String title = "ZDPortal API";
+        private String title = "StackPortal API";
 
-        private String description = "ZDPortal API documentation";
+        private String description = "StackPortal API documentation";
 
         private String version = "0.0.1";
 
@@ -436,7 +436,7 @@ public class JHipsterProperties {
 
             private int port = 2003;
 
-            private String prefix = "ZDPortal";
+            private String prefix = "StackPortal";
 
             public boolean isEnabled() {
                 return enabled;

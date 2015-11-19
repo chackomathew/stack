@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('zDPortalApp')
+angular.module('stackPortalApp')
     .directive('activeLink', function(location) {
         return {
             restrict: 'A',

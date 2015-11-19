@@ -2,7 +2,7 @@
 
 describe('Directive Tests ', function () {
 
-    beforeEach(module('zDPortalApp'));
+    beforeEach(module('stackPortalApp'));
 
     var elm, scope, $httpBackend;
 

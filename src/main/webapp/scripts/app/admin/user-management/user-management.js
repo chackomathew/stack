@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('zDPortalApp')
+angular.module('stackPortalApp')
     .config(function ($stateProvider) {
         $stateProvider
             .state('user-management', {
@@ -8,7 +8,7 @@ angular.module('zDPortalApp')
                 url: '/user-management',
                 data: {
                     authorities: ['ROLE_ADMIN'],
-                    pageTitle: 'ZDPortal'
+                    pageTitle: 'stackPortal'
                 },
                 views: {
                     'content@': {
@@ -25,7 +25,7 @@ angular.module('zDPortalApp')
                 url: '/user-management/:login',
                 data: {
                     authorities: ['ROLE_ADMIN'],
-                    pageTitle: 'ZDPortal'
+                    pageTitle: 'stackPortal'
                 },
                 views: {
                     'content@': {

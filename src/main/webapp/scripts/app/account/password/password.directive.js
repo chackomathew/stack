@@ -1,7 +1,7 @@
 /* globals $ */
 'use strict';
 
-angular.module('zDPortalApp')
+angular.module('stackPortalApp')
     .directive('passwordStrengthBar', function () {
         return {
             replace: true,

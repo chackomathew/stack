@@ -9,8 +9,8 @@ public class HeaderUtil {
 
     public static HttpHeaders createAlert(String message, String param) {
         HttpHeaders headers = new HttpHeaders();
-        headers.add("X-zDPortalApp-alert", message);
-        headers.add("X-zDPortalApp-params", param);
+        headers.add("X-stackPortalApp-alert", message);
+        headers.add("X-stackPortalApp-params", param);
         return headers;
     }
 

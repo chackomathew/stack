@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('zDPortalApp')
+angular.module('stackPortalApp')
     .directive('jhAlert', function(AlertService) {
 		return {
             restrict: 'E',
@@ -27,7 +27,7 @@ angular.module('zDPortalApp')
 	            function($scope) {
 	                $scope.alerts = AlertService.get();
 
-					var cleanHttpErrorListener = $rootScope.$on('zDPortalApp.httpError', function (event, httpResponse) {
+					var cleanHttpErrorListener = $rootScope.$on('stackPortalApp.httpError', function (event, httpResponse) {
 					    var i;
 					    event.stopPropagation();
 					    switch (httpResponse.status) {
